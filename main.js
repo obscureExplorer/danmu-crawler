@@ -9,7 +9,7 @@ var log4js = require("log4js");
 var logger = log4js.getLogger();
 logger.level = "info";
 log4js.configure({
-    appenders: { file: { type: "file", filename: defaultRoomId + "_output.log", maxLogSize: 10 * 1024 * 1024 }, console: { type: 'stdout' } },
+    appenders: { file: { type: "file", filename: roomid + "_output.log", maxLogSize: 10 * 1024 * 1024 }, console: { type: 'stdout' } },
     categories: { default: { appenders: ["console", "file"], level: "info" } }
 });
 
