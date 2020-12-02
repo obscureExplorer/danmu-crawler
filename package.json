@@ -1,0 +1,23 @@
+{
+  "name": "danmu-crawler",
+  "version": "1.0.0",
+  "description": "huya danmu",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^4.0.2",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.5.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "log4js": "^6.3.0",
+    "request-promise": "^4.2.6",
+    "ws": "^7.3.0"
+  }
+}
